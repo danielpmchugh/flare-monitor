@@ -1,0 +1,21 @@
+# Core dependencies for Flare Monitor
+# Python 3.11+ required
+
+# Blockchain interaction
+web3>=6.0.0
+
+# Async HTTP client
+aiohttp>=3.9.0
+
+# Data validation and settings management
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# YAML configuration parsing
+PyYAML>=6.0
+
+# Console output formatting
+rich>=13.0.0
+
+# Environment variable management
+python-dotenv>=1.0.0
