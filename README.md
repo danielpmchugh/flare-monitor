@@ -6,7 +6,7 @@
 
 ## Overview
 
-Flare Monitor is a production-ready Python application that tracks FXRP token prices across multiple decentralized exchanges (DEXes) on Flare Network in real-time. It detects arbitrage opportunities by comparing prices and calculating spreads, displaying everything in a beautiful live-updating terminal interface.
+Flare Monitor is a Python application that tracks FXRP token prices across multiple decentralized exchanges (DEXes) on Flare Network in real-time. It detects arbitrage opportunities by comparing prices and calculating spreads, displaying everything in a beautiful live-updating terminal interface.
 
 ## Features
 
@@ -18,7 +18,7 @@ Flare Monitor is a production-ready Python application that tracks FXRP token pr
 - ✅ **Rich Console UI**: Color-coded spreads with live-updating tables
 - ✅ **Circuit Breaker Pattern**: Resilient RPC connection handling
 - ✅ **Comprehensive Logging**: Dual console and file logging for debugging
-- ✅ **Production Ready**: Error handling, retry logic, and graceful degradation
+- ✅ **Resilience**: Error handling, retry logic, and graceful degradation
 
 ## Quick Start
 
@@ -153,7 +153,6 @@ pytest tests/ --cov=flare_monitor --cov-report=html
 
 **Test Coverage:**
 - 172 tests across 8 test modules
-- 87% passing rate
 - Core modules: 80-95% coverage
 
 ## Documentation
@@ -236,6 +235,6 @@ Built with Claude Code and the Claude Agent SDK for efficient parallel developme
 
 ---
 
-**Status**: Production Ready ✅
+**Status**: MVP (v0.1.0)
 **Version**: 0.1.0
 **Last Updated**: November 29, 2025
